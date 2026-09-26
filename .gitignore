@@ -9,6 +9,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+!2026/relatorio/build/
+!2026/relatorio/build/**
 develop-eggs/
 dist/
 downloads/
@@ -70,6 +72,8 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+!2026/relatorio/build/
+!2026/relatorio/build/**
 
 # PyBuilder
 target/
