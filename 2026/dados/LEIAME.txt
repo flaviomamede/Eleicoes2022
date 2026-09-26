@@ -1,0 +1,9 @@
+Dados trabalháveis em 2026/dados/ (retomada set/2026).
+
+Arquivo principal: urnas_pres_gov.parquet
+  - 944051 urnas, turnos 1 e 2
+  - grupo_urna: Positivo (UE2020) | Diebold (UE2009–2015) | Outro
+  - presidente + governadores alinhados (vGovA/vGovB)
+  - NÃO inclui votos por partido (DE/DF/Sen/Gov) — falta BU TSE
+
+Ver também: ../LEIAME.md e ../scores/

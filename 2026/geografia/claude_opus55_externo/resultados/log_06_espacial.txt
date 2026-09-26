@@ -1,0 +1,16 @@
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/geografia/claude_opus55_externo/scripts/06_espacial.py:81: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  m["frac_old_mun"] = m.mun.map(m.groupby("mun").apply(lambda s: s.n_old.sum() / s.secoes.sum()))
+/home/flavio/miniconda3/lib/python3.12/site-packages/libpysal/weights/distance.py:164: UserWarning: The weights matrix is not fully connected: 
+ There are 39 disconnected components.
+  W.__init__(self, neighbors, id_order=ids, **kwargs)
+                                           variavel     I       z
+                        proporção de Lula, 2º turno 0.853 555.476
+          brancos e nulos para presidente, 2º turno 0.563 366.488
+resíduo do modelo legislativo com efeito fixo de UF 0.639 415.794
+                   fração de seções com urna antiga 0.865 563.395
+GM_Lag
+GM_Error_Het
+                      modelo  coef_pp  ep_pp  estat  espacial
+                         MQO    3.293  0.091 36.256       NaN
+ defasagem espacial (GM_Lag)    2.110  0.075 28.211     0.382
+erro espacial (GM_Error_Het)    1.389  0.117 11.890     0.854

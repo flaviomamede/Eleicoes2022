@@ -1,0 +1,48 @@
+{
+  "metodo": "regressão ecológica restrita (lsq_linear bounds 0..1)",
+  "turno": 1,
+  "preditores": "fração partido (+Branco/Nulo) no cargo / total do cargo",
+  "alvos": [
+    "fração Bolsonaro(22)",
+    "fração Lula(13)",
+    "fração outros candidatos"
+  ],
+  "calibragem": "somente Positivo (UE2020) por UF",
+  "aplicacao": "Positivo e Diebold da mesma UF",
+  "ufs": [
+    "AC",
+    "AL",
+    "AM",
+    "AP",
+    "BA",
+    "CE",
+    "DF",
+    "ES",
+    "GO",
+    "MA",
+    "MG",
+    "MS",
+    "MT",
+    "PA",
+    "PB",
+    "PE",
+    "PI",
+    "PR",
+    "RJ",
+    "RN",
+    "RO",
+    "RR",
+    "RS",
+    "SC",
+    "SE",
+    "SP",
+    "TO",
+    "ZZ"
+  ],
+  "n_ufs": 28,
+  "cargos": [
+    "DF",
+    "DE",
+    "GOV"
+  ]
+}

@@ -1,0 +1,24 @@
+# Dados brutos voluminosos (baixar / regenerar — ver LEIAME e dados/*/LEIA-ME)
+bweb_*.zip
+buweb/
+*.sqlite
+*.sqlite3
+**/bu2022.sqlite
+**/bu2022.sqlite.zip
+urnas_pres_gov.csv
+urnas_2022.sqlite3
+
+# Cache e pickles geográficos
+geografia/**/dados/cache/
+**/*.pkl
+
+# Zip duplicado do pacote Claude (pasta descompactada entra)
+geografia/Eleicoes2022_2026.zip
+geografia/**/Eleicoes2022_2026.zip
+
+# Checkpoints por UF (redundantes com secoes_2022_t*.csv.gz)
+dados/base_secoes/por_uf/
+
+# Python
+**/__pycache__/
+*.pyc

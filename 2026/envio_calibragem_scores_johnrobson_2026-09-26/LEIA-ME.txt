@@ -1,0 +1,35 @@
+Pacote para encaminhar a John Robson / VotoReal — calibragem objetiva de scores
+Data: 2026-09-26
+
+RELATÓRIO PRINCIPAL
+  relatorios/relatorio_calibragem.md
+
+RELATÓRIO COMPLEMENTAR (T1/T2/T3 — geografia vs marca; não troca score do site)
+  relatorios/relatorio_base_e_controles.md
+  relatorios/critica-opus-relatorio-calibragem.md  (contexto metodológico)
+
+PARA ATUALIZAR A TABELA DO SITE
+  taxas/comparacao_scores_jr_vs_calibrado_1t_df.csv   ← JR × calibrado (1T, Dep. Federal)
+  taxas/taxas_medias_uf_1t_deputado_federal.csv       ← taxas médias nacionais (+ Outros)
+  taxas/taxas_partido_1t_deputado_federal.csv         ← matriz por UF (scores estaduais)
+
+VARIANTES (mesmo exercício, outros cargos / 2º turno)
+  taxas/taxas_medias_uf_1t_deputado_estadual.csv
+  taxas/taxas_medias_uf_1t_governador.csv
+  taxas/taxas_partido_1t_deputado_estadual.csv
+  taxas/taxas_partido_1t_governador.csv
+  taxas/taxas_partido_2t_dep_federal_1t.csv
+
+VALIDAÇÃO
+  validacao/holdout_partido_*.csv
+  validacao/residuos_brasil_partido_*.csv
+  validacao/contraste_partido_*.csv
+
+FIGURAS
+  figuras/contraste_partido_*.png
+
+CONTROLES T1/T2/T3 (embasam o relatório complementar)
+  controles/*
+
+AVISO: taxas calibradas não somam 100% em Bolsonaro+Lula (há coluna Outros).
+Se o site exige B+L=100%, renormar ou incluir Outros no 1º turno.

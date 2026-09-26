@@ -1,0 +1,90 @@
+UFs ['AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO', 'ZZ'] turno 1 cargo Deputado Federal
+AC pos 909 die 1215 ok
+AL pos 2381 die 4245 ok
+AM pos 3173 die 4278 ok
+AP pos 723 die 1017 ok
+BA pos 13050 die 21374 ok
+CE pos 9565 die 13230 ok
+DF pos 3932 die 2816 ok
+ES pos 3339 die 5900 ok
+GO pos 6209 die 8411 ok
+MA pos 6814 die 9609 ok
+MG pos 19668 die 30312 ok
+MS pos 3053 die 3859 ok
+MT pos 3322 die 4330 ok
+PA pos 7787 die 10447 ok
+PB pos 4521 die 5078 ok
+PE pos 8301 die 12271 ok
+PI pos 3741 die 5221 ok
+PR pos 10421 die 15299 ok
+RJ pos 14238 die 19830 ok
+RN pos 3665 die 4008 ok
+RO pos 1653 die 2545 ok
+RR pos 1031 die 237 ok
+RS pos 10792 die 16409 ok
+SC pos 6680 die 9562 ok
+SE pos 2357 die 3141 ok
+SP pos 39676 die 61395 ok
+TO pos 1639 die 2318 ok
+skip ZZ
+gravado em /home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/analise
+UFs ['AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO', 'ZZ'] turno 1 cargo Deputado Estadual
+AC pos 909 die 1215 ok
+AL pos 2381 die 4245 ok
+AM pos 3173 die 4278 ok
+AP pos 723 die 1017 ok
+BA pos 13050 die 21374 ok
+CE pos 9565 die 13230 ok
+DF pos 3932 die 2816 ok
+ES pos 3339 die 5900 ok
+GO pos 6209 die 8411 ok
+MA pos 6814 die 9609 ok
+MG pos 19668 die 30312 ok
+MS pos 3053 die 3859 ok
+MT pos 3322 die 4330 ok
+PA pos 7787 die 10447 ok
+PB pos 4521 die 5078 ok
+PE pos 8301 die 12271 ok
+PI pos 3741 die 5221 ok
+PR pos 10421 die 15299 ok
+RJ pos 14238 die 19830 ok
+RN pos 3665 die 4008 ok
+RO pos 1653 die 2545 ok
+RR pos 1031 die 237 ok
+RS pos 10792 die 16409 ok
+SC pos 6680 die 9562 ok
+SE pos 2357 die 3141 ok
+SP pos 39676 die 61395 ok
+TO pos 1639 die 2318 ok
+skip ZZ
+gravado em /home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/analise
+UFs ['AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO', 'ZZ'] turno 1 cargo Governador
+AC pos 909 die 1215 ok
+AL pos 2381 die 4245 ok
+AM pos 3173 die 4278 ok
+AP pos 723 die 1017 ok
+BA pos 13050 die 21374 ok
+CE pos 9565 die 13230 ok
+DF pos 3932 die 2816 ok
+ES pos 3339 die 5900 ok
+GO pos 6209 die 8411 ok
+MA pos 6814 die 9609 ok
+MG pos 19668 die 30312 ok
+MS pos 3053 die 3859 ok
+MT pos 3322 die 4330 ok
+PA pos 7787 die 10447 ok
+PB pos 4521 die 5078 ok
+PE pos 8301 die 12271 ok
+PI pos 3741 die 5221 ok
+PR pos 10421 die 15299 ok
+RJ pos 14238 die 19830 ok
+RN pos 3665 die 4008 ok
+RO pos 1653 die 2545 ok
+RR pos 1031 die 237 ok
+RS pos 10792 die 16409 ok
+SC pos 6680 die 9562 ok
+SE pos 2357 die 3141 ok
+SP pos 39676 die 61395 ok
+TO pos 1639 die 2318 ok
+skip ZZ
+gravado em /home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/analise

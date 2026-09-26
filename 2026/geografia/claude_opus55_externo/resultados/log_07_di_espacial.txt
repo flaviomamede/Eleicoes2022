@@ -1,0 +1,28 @@
+/home/flavio/miniconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:1349: FutureWarning: The logit link alias is deprecated. Use Logit instead. The logit link alias will be removed after the 0.15.0 release.
+  _link_deprecation_warning("logit", "Logit")
+/home/flavio/miniconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:1349: FutureWarning: The logit link alias is deprecated. Use Logit instead. The logit link alias will be removed after the 0.15.0 release.
+  _link_deprecation_warning("logit", "Logit")
+/home/flavio/miniconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:1349: FutureWarning: The logit link alias is deprecated. Use Logit instead. The logit link alias will be removed after the 0.15.0 release.
+  _link_deprecation_warning("logit", "Logit")
+/home/flavio/miniconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:1349: FutureWarning: The logit link alias is deprecated. Use Logit instead. The logit link alias will be removed after the 0.15.0 release.
+  _link_deprecation_warning("logit", "Logit")
+/home/flavio/miniconda3/lib/python3.12/site-packages/libpysal/weights/distance.py:164: UserWarning: The weights matrix is not fully connected: 
+ There are 39 disconnected components.
+  W.__init__(self, neighbors, id_order=ids, **kwargs)
+/home/flavio/miniconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:1349: FutureWarning: The logit link alias is deprecated. Use Logit instead. The logit link alias will be removed after the 0.15.0 release.
+  _link_deprecation_warning("logit", "Logit")
+/home/flavio/miniconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:1349: FutureWarning: The logit link alias is deprecated. Use Logit instead. The logit link alias will be removed after the 0.15.0 release.
+  _link_deprecation_warning("logit", "Logit")
+locais: 92197
+                          modelo  coef_pSup      z_pSup  p_pSup
+                 QB: pInv ~ pSup   0.346877 1446.045043     0.0
+QB: pInv ~ pSup + old + pSup×old   0.458773 1083.413463     0.0
+Moran resíduos QB: I=0.571 z=371.6
+GM_Lag
+GM_Error_Het
+           modelo  coef_pSup     ep  estat  espacial
+MQO pInv~pSup+old     0.0026 0.0003 8.4758       NaN
+           GM_Lag     0.0012 0.0002 5.0975    0.7219
+     GM_Error_Het     0.0042 0.0007 6.1362    0.7654
+SEM: coef_pSup=0.4061 z=1321.91 | pSup×lat z=-1964.42 | pSup×lon z=858.68
+ok -> resultados/di_espacial_*.csv

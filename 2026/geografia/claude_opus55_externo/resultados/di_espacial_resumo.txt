@@ -1,0 +1,7 @@
+F3 invalidação diferencial (locais, 2º turno)
+n=92197
+QB pInv~pSup: coef=0.3469 z=1446.05 p=0
+interação pSup×old: coef=-0.1308 z=-253.57 p=0
+Moran resíduo QB: I=0.571 z=371.6
+GM_Error coef_pSup=0.00417 z=6.14 λ=0.765
+SEM pSup×lat z=-1964.42 pSup×lon z=858.68

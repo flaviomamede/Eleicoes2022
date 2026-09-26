@@ -1,0 +1,13 @@
+# versões testadas (Python 3.12)
+pandas>=2.2          # testado 3.0.2
+numpy>=1.26          # testado 2.4.4
+scipy>=1.11          # testado 1.17.1
+lxml>=5.0            # testado 6.0.2
+pyarrow>=14          # testado 25.0.1
+geopandas>=1.0       # testado 1.1.4
+shapely>=2.0         # testado 2.1.2
+libpysal>=4.10       # testado 4.15.0
+esda>=2.5            # testado 2.10.0
+spreg>=1.5           # testado 1.9.1
+mgwr>=2.2            # testado 2.2.1 (fase F4b)
+statsmodels>=0.14

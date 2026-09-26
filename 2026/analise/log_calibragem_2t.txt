@@ -1,0 +1,32 @@
+AC ok 909 1215
+AL ok 2381 4245
+AM ok 3173 4280
+AP ok 723 1017
+BA ok 13050 21374
+CE ok 9565 13231
+DF ok 3932 2816
+ES ok 3339 5900
+GO ok 6209 8411
+MA ok 6814 9609
+MG ok 19668 30313
+MS ok 3053 3859
+MT ok 3322 4330
+PA ok 7788 10442
+PB ok 4523 5079
+PE ok 8301 12271
+PI ok 3741 5222
+PR ok 10422 15299
+RJ ok 14238 19830
+RN ok 3665 4009
+RO ok 1653 2545
+RR ok 1031 237
+RS ok 10792 16409
+SC ok 6680 9562
+SE ok 2357 3141
+SP ok 39723 61350
+TO ok 1639 2318
+skip ZZ
+   marca  urnas  votos_Bolsonaro  votos_Lula  est_Bolsonaro     est_Lula  res_Bolsonaro      res_Lula  erro_pct_Bolsonaro  erro_pct_Lula
+ Diebold 278314       31871148.0  35080708.0   3.320278e+07 3.343745e+07  -1.331634e+06  1.643257e+06           -4.010611       4.914420
+Positivo 192691       26189721.0  25111550.0   2.607370e+07 2.514462e+07   1.160256e+05 -3.306863e+04            0.444991      -0.131514
+OK /home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/analise

@@ -1,0 +1,326 @@
+
+=== turno 1: 28 UFs ===
+  processando bweb_1t_AC_051020221321.zip …
+  → AC_1t seções=2124 dup=0 cols_voto=80 (0.3 MB)
+  processando bweb_1t_AL_051020221321.zip …
+  → AL_1t seções=6626 dup=0 cols_voto=82 (0.8 MB)
+  processando bweb_1t_AM_051020221321.zip …
+  → AM_1t seções=7453 dup=0 cols_voto=86 (0.9 MB)
+  processando bweb_1t_AP_051020221321.zip …
+  → AP_1t seções=1740 dup=0 cols_voto=80 (0.3 MB)
+  processando bweb_1t_CE_051020221321.zip …
+  → CE_1t seções=22796 dup=0 cols_voto=84 (2.4 MB)
+  processando bweb_1t_DF_051020221321.zip …
+  → DF_1t seções=6748 dup=0 cols_voto=105 (0.9 MB)
+  processando bweb_1t_ES_051020221321.zip …
+  → ES_1t seções=9239 dup=0 cols_voto=88 (1.1 MB)
+  processando bweb_1t_GO_051020221321.zip …
+  → GO_1t seções=14620 dup=0 cols_voto=100 (1.8 MB)
+  processando bweb_1t_MA_051020221321.zip …
+  → MA_1t seções=16423 dup=0 cols_voto=91 (1.9 MB)
+  processando bweb_1t_MS_051020221321.zip …
+  → MS_1t seções=6912 dup=0 cols_voto=84 (0.8 MB)
+  processando bweb_1t_MT_051020221321.zip …
+  → MT_1t seções=7652 dup=0 cols_voto=75 (0.9 MB)
+  processando bweb_1t_PA_051020221321.zip …
+  → PA_1t seções=18235 dup=0 cols_voto=94 (2.1 MB)
+  processando bweb_1t_PB_051020221321.zip …
+  → PB_1t seções=9602 dup=0 cols_voto=86 (1.1 MB)
+  processando bweb_1t_PE_051020221321.zip …
+  → PE_1t seções=20572 dup=0 cols_voto=101 (2.4 MB)
+  processando bweb_1t_PI_051020221321.zip …
+  → PI_1t seções=8963 dup=0 cols_voto=77 (0.9 MB)
+  processando bweb_1t_PR_051020221321.zip …
+  → PR_1t seções=25721 dup=0 cols_voto=99 (3.0 MB)
+  processando bweb_1t_RN_051020221321.zip …
+  → RN_1t seções=7674 dup=0 cols_voto=89 (0.9 MB)
+  processando bweb_1t_RO_051020221321.zip …
+  → RO_1t seções=4198 dup=0 cols_voto=79 (0.5 MB)
+  processando bweb_1t_RR_051020221321.zip …
+  → RR_1t seções=1268 dup=0 cols_voto=85 (0.2 MB)
+  processando bweb_1t_RS_051020221321.zip …
+  → RS_1t seções=27201 dup=0 cols_voto=100 (3.1 MB)
+  processando bweb_1t_SC_051020221321.zip …
+  → SC_1t seções=16242 dup=0 cols_voto=96 (1.9 MB)
+  processando bweb_1t_SE_051020221321.zip …
+  → SE_1t seções=5498 dup=0 cols_voto=82 (0.7 MB)
+  processando bweb_1t_TO_051020221321.zip …
+  → TO_1t seções=3957 dup=0 cols_voto=83 (0.5 MB)
+  processando bweb_1t_ZZ_051020221321.zip …
+  → ZZ_1t seções=1018 dup=0 cols_voto=13 (0.1 MB)
+  processando bweb_1t_RJ_051020221321.zip …
+  → RJ_1t seções=34068 dup=0 cols_voto=106 (4.3 MB)
+  processando bweb_1t_BA_051020221321.zip …
+  → BA_1t seções=34424 dup=0 cols_voto=91 (3.8 MB)
+  processando bweb_1t_MG_051020221321.zip …
+  → MG_1t seções=49981 dup=0 cols_voto=103 (5.8 MB)
+  processando bweb_1t_SP_051020221321.zip …
+
+=== turno 1: 28 UFs ===
+  skip AC_1t (já ok)
+  skip AL_1t (já ok)
+  skip AM_1t (já ok)
+  skip AP_1t (já ok)
+  skip CE_1t (já ok)
+  skip DF_1t (já ok)
+  skip ES_1t (já ok)
+  skip GO_1t (já ok)
+  skip MA_1t (já ok)
+  skip MS_1t (já ok)
+  skip MT_1t (já ok)
+  skip PA_1t (já ok)
+  skip PB_1t (já ok)
+  skip PE_1t (já ok)
+  skip PI_1t (já ok)
+  skip PR_1t (já ok)
+  skip RN_1t (já ok)
+  skip RO_1t (já ok)
+  skip RR_1t (já ok)
+  skip RS_1t (já ok)
+  skip SC_1t (já ok)
+  skip SE_1t (já ok)
+  skip TO_1t (já ok)
+  skip ZZ_1t (já ok)
+  skip RJ_1t (já ok)
+  skip BA_1t (já ok)
+  skip MG_1t (já ok)
+  processando bweb_1t_SP_051020221321.zip …
+  CSV 9449 MB → modo chunked
+    chunk 1 linhas=400,000
+    chunk 2 linhas=400,000
+    chunk 3 linhas=400,000
+    chunk 4 linhas=400,000
+    chunk 5 linhas=400,000
+    chunk 6 linhas=400,000
+    chunk 7 linhas=400,000
+    chunk 8 linhas=400,000
+    chunk 9 linhas=400,000
+    chunk 10 linhas=400,000
+    chunk 11 linhas=400,000
+    chunk 12 linhas=400,000
+    chunk 13 linhas=400,000
+    chunk 14 linhas=400,000
+    chunk 15 linhas=400,000
+    chunk 16 linhas=400,000
+    chunk 17 linhas=400,000
+    chunk 18 linhas=400,000
+    chunk 19 linhas=400,000
+    chunk 20 linhas=400,000
+    chunk 21 linhas=400,000
+    chunk 22 linhas=400,000
+    chunk 23 linhas=400,000
+    chunk 24 linhas=400,000
+    chunk 25 linhas=400,000
+    chunk 26 linhas=400,000
+    chunk 27 linhas=400,000
+    chunk 28 linhas=400,000
+    chunk 29 linhas=400,000
+    chunk 30 linhas=400,000
+    chunk 31 linhas=400,000
+    chunk 32 linhas=400,000
+    chunk 33 linhas=400,000
+    chunk 34 linhas=400,000
+    chunk 35 linhas=400,000
+    chunk 36 linhas=400,000
+    chunk 37 linhas=400,000
+    chunk 38 linhas=400,000
+    chunk 39 linhas=400,000
+    chunk 40 linhas=400,000
+    chunk 41 linhas=400,000
+    chunk 42 linhas=400,000
+    chunk 43 linhas=400,000
+    chunk 44 linhas=400,000
+    chunk 45 linhas=400,000
+    chunk 46 linhas=400,000
+    chunk 47 linhas=400,000
+    chunk 48 linhas=367,373
+  → SP_1t seções=101073 dup=0 cols_voto=106 (11.7 MB)
+
+=== turno 2: 28 UFs ===
+  processando bweb_2t_AC_311020221535.zip …
+  → AC_2t seções=2124 dup=0 cols_voto=4 (0.1 MB)
+  processando bweb_2t_AL_311020221535.zip …
+  → AL_2t seções=6626 dup=0 cols_voto=8 (0.4 MB)
+  processando bweb_2t_AM_311020221535.zip …
+  → AM_2t seções=7453 dup=0 cols_voto=8 (0.5 MB)
+  processando bweb_2t_AP_311020221535.zip …
+  → AP_2t seções=1740 dup=0 cols_voto=4 (0.1 MB)
+  processando bweb_2t_CE_311020221535.zip …
+  → CE_2t seções=22796 dup=0 cols_voto=4 (1.2 MB)
+  processando bweb_2t_DF_311020221535.zip …
+  → DF_2t seções=6748 dup=0 cols_voto=4 (0.4 MB)
+  processando bweb_2t_ES_311020221535.zip …
+  → ES_2t seções=9239 dup=0 cols_voto=8 (0.5 MB)
+  processando bweb_2t_GO_311020221535.zip …
+  → GO_2t seções=14620 dup=0 cols_voto=4 (0.8 MB)
+  processando bweb_2t_MA_311020221535.zip …
+  → MA_2t seções=16423 dup=0 cols_voto=4 (0.9 MB)
+  processando bweb_2t_MS_311020221535.zip …
+  → MS_2t seções=6912 dup=0 cols_voto=8 (0.4 MB)
+  processando bweb_2t_MT_311020221535.zip …
+  → MT_2t seções=7652 dup=0 cols_voto=4 (0.4 MB)
+  processando bweb_2t_PA_311020221535.zip …
+  → PA_2t seções=18235 dup=0 cols_voto=4 (1.0 MB)
+  processando bweb_2t_PB_311020221535.zip …
+  → PB_2t seções=9602 dup=0 cols_voto=8 (0.6 MB)
+  processando bweb_2t_PE_311020221535.zip …
+  → PE_2t seções=20572 dup=0 cols_voto=8 (1.2 MB)
+  processando bweb_2t_PI_311020221535.zip …
+  → PI_2t seções=8963 dup=0 cols_voto=4 (0.5 MB)
+  processando bweb_2t_PR_311020221535.zip …
+  → PR_2t seções=25721 dup=0 cols_voto=4 (1.4 MB)
+  processando bweb_2t_RN_311020221535.zip …
+  → RN_2t seções=7674 dup=0 cols_voto=4 (0.4 MB)
+  processando bweb_2t_RO_311020221535.zip …
+  → RO_2t seções=4198 dup=0 cols_voto=8 (0.3 MB)
+  processando bweb_2t_RR_311020221535.zip …
+  → RR_2t seções=1268 dup=0 cols_voto=4 (0.1 MB)
+  processando bweb_2t_RS_311020221535.zip …
+  → RS_2t seções=27201 dup=0 cols_voto=8 (1.6 MB)
+  processando bweb_2t_SC_311020221535.zip …
+  → SC_2t seções=16242 dup=0 cols_voto=8 (0.9 MB)
+  processando bweb_2t_SE_311020221535.zip …
+  → SE_2t seções=5498 dup=0 cols_voto=8 (0.3 MB)
+  processando bweb_2t_TO_311020221535.zip …
+  → TO_2t seções=3957 dup=0 cols_voto=4 (0.2 MB)
+  processando bweb_2t_ZZ_311020221535.zip …
+  → ZZ_2t seções=1018 dup=0 cols_voto=4 (0.1 MB)
+  processando bweb_2t_RJ_311020221535.zip …
+  → RJ_2t seções=34068 dup=0 cols_voto=4 (1.8 MB)
+  processando bweb_2t_BA_311020221535.zip …
+  → BA_2t seções=34424 dup=0 cols_voto=8 (2.0 MB)
+  processando bweb_2t_MG_311020221535.zip …
+  → MG_2t seções=49981 dup=0 cols_voto=4 (2.6 MB)
+  processando bweb_2t_SP_311020221535.zip …
+  → SP_2t seções=101073 dup=0 cols_voto=8 (5.6 MB)
+
+=== finalizando turno 1 ===
+  UFs=28 colunas=169
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py:535: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[c] = 0 if c.startswith(("PRES_", "GOV_", "SEN_", "DF_", "DE_")) or c == "DUPLICADO_ID_SECAO" else pd.NA
+Traceback (most recent call last):
+  File "/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py", line 810, in <module>
+    main()
+  File "/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py", line 800, in main
+    finalize(turno, manifest)
+  File "/home/flavio/Documentos/PESSOAL/PROJETO_ELEICOES_JOHNROBSON/2026/scripts/gerar_base_secoes.py", line 545, in finalize
+    full.to_parquet(pq_out, index=False)
+  File "/home/flavio/miniconda3/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flavio/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 3124, in to_parquet
+    return to_parquet(
+           ^^^^^^^^^^^
+  File "/home/flavio/miniconda3/lib/python3.12/site-packages/pandas/io/parquet.py", line 482, in to_parquet
+    impl.write(
+  File "/home/flavio/miniconda3/lib/python3.12/site-packages/pandas/io/parquet.py", line 191, in write
+    table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4795, in pyarrow.lib.Table.from_pandas
+  File "/home/flavio/miniconda3/lib/python3.12/site-packages/pyarrow/pandas_compat.py", line 653, in dataframe_to_arrays
+    arrays[i] = maybe_fut.result()
+                ^^^^^^^^^^^^^^^^^^
+  File "/home/flavio/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/flavio/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/flavio/miniconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flavio/miniconda3/lib/python3.12/site-packages/pyarrow/pandas_compat.py", line 628, in convert_column
+    raise e
+  File "/home/flavio/miniconda3/lib/python3.12/site-packages/pyarrow/pandas_compat.py", line 622, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 91, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: ("Could not convert '613.559' with type str: tried to convert to double", 'Conversion failed for column CD_CARGA_2_URNA_EFETIVADA with type object')
+
+=== finalizando turno 1 ===
+  UFs=28 colunas=169
+  parquet 52.1 MB  linhas=472028
+  csv.gz  60.0 MB
+  validação: seções=472028 Lula=57,259,504 Bolso=51,072,345
+
+=== finalizando turno 2 ===
+  UFs=28 colunas=39
+  parquet 24.2 MB  linhas=472028
+  csv.gz  24.7 MB
+  validação: seções=472028 Lula=60,345,999 Bolso=58,206,354
+sqlite zip 94.8 MB
+README ok
+fim

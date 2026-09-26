@@ -1,0 +1,38 @@
+{
+  "geo/geocoded_polling_stations.csv.gz": {
+    "bytes": 53738324,
+    "sha256": "ccf70bc98b914aef8779578bc1ad38fb087e4fc73a8d453840459086bd2c784c"
+  },
+  "geo/municipalities_2022_simplified.parquet": {
+    "bytes": 20567233,
+    "sha256": "8b1021bf7cd4b5b028b3179c88c968119786d6a930521067d3fde3bf647984c3"
+  },
+  "geo/panel_ids.csv.gz": {
+    "bytes": 5992273,
+    "sha256": "18a6f20e60e8475e075e0942ada68e28b457b5ce0b619ec59caf05a162f4b4fd"
+  },
+  "geo/pollingplaces_2022.parquet": {
+    "bytes": 16299387,
+    "sha256": "370f4ed99a539be37c9c4d70da92b30647d26c9d7e75b053910c8c504b6d6988"
+  },
+  "geo/section_panel_mapping.csv.gz": {
+    "bytes": 18623471,
+    "sha256": "a3322f8f2212b2ea72272fc9b3f776531615f530a58eff99a4db84454476b707"
+  },
+  "geo/urbanareas_2022_simplified.parquet": {
+    "bytes": 31570237,
+    "sha256": "980b60a4540add15aeb422988a77335a3f03247805e7883427eb4832e7cb0e11"
+  },
+  "modelo_urna_secao.csv.gz": {
+    "bytes": 1886910,
+    "sha256": "646465dc7e61c9952e0c6334dba3525f32cd7d19c63731c93a2473e8e4f34d60"
+  },
+  "secoes_2022_t1.csv.gz": {
+    "bytes": 59979780,
+    "sha256": "70fde790baafa34ed7db6978f0f13c5f402f9436642e7307f12eae09f354e82f"
+  },
+  "secoes_2022_t2.csv.gz": {
+    "bytes": 24713036,
+    "sha256": "62d34e5d8deda5f8f3fd194da34861c28ab3f5052309da4a4ba49596bb00eab9"
+  }
+}

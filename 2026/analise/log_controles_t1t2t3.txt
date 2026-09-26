@@ -1,0 +1,24 @@
+carregando seções…
+modelo de urna…
+cobertura modelo {'Diebold': 279317, 'Positivo': 192640, 'Outro': 71} capitais 98849
+T1 UFs 24
+    uf  erro_rel_Bolsonaro  delta_pp_Bolsonaro
+16  RN          -31.974580          -14.786265
+1   AL          -30.938300          -17.610510
+13  PI          -27.451607           -6.022259
+21  SE          -24.118941           -9.295237
+3   CE          -22.921916           -8.345106
+6   MA          -21.106481           -7.515094
+11  PB          -17.937075           -7.121038
+10  PA          -13.851233           -5.470846
+14  PR           -8.272360           -4.618900
+12  PE           -6.940867           -2.549905
+T2 municípios 165 UFs 7
+T3 UFs 27
+{
+  "turno": 1,
+  "T1_erro_rel_B_medio": -7.068657888836654,
+  "T2_erro_rel_B_medio": -0.8702460637179115,
+  "T3_erro_rel_B_medio": 16.364767121547107,
+  "leitura": "Se |T1| grande e |T2| ~0 → geografia; se |T1|~0 e |T2| grande → marca"
+}

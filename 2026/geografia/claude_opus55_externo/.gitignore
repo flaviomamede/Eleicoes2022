@@ -1,0 +1,15 @@
+# dados brutos e intermediários ficam fora do Git (ver dados/LEIA-ME.md)
+# Exceções: leituras, manifesto, modelo de urna, geo Hidalgo/geobr, links para base larga
+dados/*
+!dados/LEIA-ME.md
+!dados/manifesto.json
+!dados/modelo_urna_secao.csv.gz
+!dados/geo/
+!dados/geo/**
+!dados/secoes_2022_t1.csv.gz
+!dados/secoes_2022_t2.csv.gz
+dados/cache/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
