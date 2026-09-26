@@ -9,16 +9,15 @@
 
 ## Sumário executivo
 
-Há diferença agregada entre a proporção de votos de Lula e Bolsonaro nas urnas anteriores a 2020 e nas urnas UE2020. Esse contraste é um **indício real**. Neste relatório ele é atribuído à **alocação dos equipamentos** (capitais e cidades maiores receberam UE2020; o interior, em maior medida, urnas antigas), e não a manipulação do software por modelo de urna.
+Este relatório separa com rigor **indício** e **prova**. Indício é distorção real e estatisticamente significativa relacionada ao fato; basta, *conforme queríamos demonstrar*, para afirmar que há o que investigar. Prova exige ainda destino discriminante (relação causal com a urna que sobrevive a controles) e, no limite, registro independente do software.
 
-Nos **1.353 locais de votação** do país que tiveram os dois modelos lado a lado, descontada a composição do voto a deputado federal de cada seção, a diferença entre modelos é de **+0,01 ponto percentual** (t = 0,13). O mesmo aparelho detectaria, com folga, a transferência de 1% dos votos de Bolsonaro nas urnas antigas de São Paulo.
+Há diferença agregada entre a proporção Lula/Bolsonaro nas urnas anteriores a 2020 e nas UE2020 — **indício real**. Nos **1.353 locais** com os dois modelos lado a lado, descontada a composição legislativa, o contraste cai a **+0,01 pp** (t = 0,13). Esse nível de comparação atribui o indício agregado, na maior parte, à **alocação** dos equipamentos — sem invalidar outros indícios obtidos por vias distintas (Forsberg).
 
-A calibragem objetiva dos scores do site VotoReal confirma que a regra aprendida nas UE2020 **não se reproduz** nas urnas antigas da mesma UF (proposição R2). Os controles T1/T2 mostram que esse desajuste se comporta como contraste **geográfico** (capital × interior), não como efeito de marca (R4 refutada neste desenho).
+Pelos critérios do Cap. 6 de Forsberg, há **associação estatística** entre taxa de brancos+nulos e apoio a Lula (coef. logit ≈ +0,35; z ≫ 2). Isso é *unfairness* possível e, na terminologia deste projeto, **é indício** do que pode ser fraude — não prova isolada. O sinal não é uniforme no país: é mais forte (z elevado, coeficiente positivo) em UFs como SP, RS, MS, PB, ES, PE; em outras (CE, PA, PR, PI…) o coeficiente inverte de sinal. Os resíduos desse modelo ainda têm Moran **I ≈ 0,57**: os desvios se agrupam no espaço (clusters HH significativos sobretudo em SP, BA, PE, PB).
 
-A análise espacial (Forsberg cap. 7) mostra autocorrelação forte do voto, da invalidação e da própria alocação de urnas. Modelos espaciais de coeficiente constante reduzem, mas não eliminam, o viés espacial; a referência intramunicipal permanece o padrão-ouro onde há comparação interna. Permanecem em aberto: municípios só com urnas antigas (cerca de 44% dos votos válidos), objeto da análise geográfica em curso; e o mecanismo M5 (manipulação dispersa comum a todos os modelos), indeterminado com os registros de 2022.
+Pelo Cap. 7, modelos espaciais baixam o coeficiente da fração de urnas antigas sobre a proporção de Lula de cerca de **+3,3 pp** (MQO) para **+1,4 pp** (erro espacial). Neutro, na escala do mesmo prédio, seria ≈ **+0,01 pp**. **+1,4 pp não é neutro**: permanece **indício** associado à urna/lugar após controle espacial global. Ainda não é prova nem indício discriminante a favor da fraude (falta a calibração F4a no domínio onde a referência é conhecida); mas tampouco se pode dizer que o Cap. 7 “zerou” o efeito.
 
-**Conclusão para o leitor:** com os dados e os testes deste relatório, **não há prova de fraude** por modelo de urna, e os indícios examinados foram atribuídos à alocação (exceto I8, ainda a examinar em Roraima).
-
+**Conclusão para o leitor:** **há indícios** com significância estatística (Caps. 6 e 7, além do contraste agregado). **Não há prova** de fraude por modelo de urna. O azul do mapa de Lula continua sendo geografia do voto, não o teste de Forsberg.
 ---
 
 ## 1. Conceitos e fundamentos
@@ -39,7 +38,7 @@ Neste trabalho os termos seguem o sentido do direito brasileiro (CPP art. 239; C
 | **Prova** | Forte e coincidente com registro independente do software |
 | **Exclusão de mecanismo** | Teste com poder ≥ 90% para fraude capaz de alterar o resultado, sem sinal |
 
-Cada indício recebe um de três destinos: **atribuído à alocação**, **atribuído à fraude** ou **indeterminado**.
+Cada indício recebe um de três destinos: **atribuído à alocação**, **atribuído à fraude** ou **indeterminado**. Encontrar indício *do que pode ser fraude* (associação estatística compatível com unfairness ou com efeito residual de urna) **já satisfaz** o objetivo intermediário da auditoria — *conforme queríamos demonstrar* — sem confundir isso com prova.
 
 ### 1.2 Confundimento espacial (P0)
 
@@ -49,24 +48,23 @@ O modelo de urna não foi sorteado. As UE2020 concentram-se em capitais e munic�
 
 *Figura 2 — Geografia do voto (Lula, 2º turno) e da alocação (fração de urnas antigas), por município. Os dois mapas não são independentes.*
 
+#### O azul do mapa é indício de fraude?
+
+Não. No painel da esquerda, **azul escuro = município em que Lula teve maior fração dos votos válidos** entre Lula e Bolsonaro (escala ~20% a ~80%). Vermelho escuro = o contrário. A “quantidade visual de azul” é, portanto, a **geografia do eleitorado** no 2º turno — Norte e Nordeste votaram mais em Lula; Sul, parte do Sudeste e Centro-Oeste, mais em Bolsonaro. Isso é o resultado oficial agregado no mapa; não é um teste de integridade da urna.
+
+O que o par de mapas *mostra* de útil à auditoria é outra coisa: o painel da direita (marrom = quase só urnas antigas) cobre grande parte do território, inclusive onde o azul é dominante. Quem olha os dois juntos e conclui “azul = fraude nas antigas” comete o erro clássico de **confundimento**: lugar, perfil social e marca de urna caminham juntos. O Cap. 7 de Forsberg existe precisamente para obrigar o analista a modelar essa dependência espacial em vez de ler cor como prova.
+
 ### 1.3 Taxas de transferência e scores
 
 A ideia por trás dos scores do VotoReal é uma **tabela de transferência**: dado o voto em deputado (ou partido), que fração “iria” a Bolsonaro ou a Lula. A calibragem objetiva estima essas taxas por regressão ecológica restrita **somente nas seções UE2020** de cada UF e aplica a mesma tabela às seções com urna antiga. O erro relativo resultante mede desajuste de domínio — não, por si, fraude.
 
 ### 1.4 Invalidação diferencial (Forsberg, cap. 6)
 
-Sob a hipótese de eleição livre e justa, a taxa de brancos e nulos deve ser **independente** do apoio ao candidato. Relação significativa entre invalidação e apoio é evidência de *unfairness* (que pode ser fraude, desenho de cédula, alfabetização, demografia). O cap. 7 exige controle espacial porque o voto é autocorrelacionado.
-
-![Invalidação](figuras/09_mapa_invalidacao.png)
-
-*Figura 3 — Taxa de brancos+nulos (2º turno) por município.*
+Sob a hipótese de eleição livre e justa, a taxa de brancos e nulos deve ser **independente** do apoio ao candidato. Relação significativa é *unfairness* possível e, neste relatório, **conta como indício** (do que pode ser fraude) — não como prova *per se*. Números, mapa por UF e clusters: **seção 6**.
 
 ### 1.5 Autocorrelação espacial (Forsberg, cap. 7)
 
-![Moran](figuras/04_moran.png)
-
-*Figura 4 — Índice de Moran global (8 vizinhos mais próximos) nos ~92 mil locais de votação. Valores altos e z > 360: voto, invalidação, resíduos legislativos e alocação de urnas estão espacialmente agrupados.*
-
+Vizinhos votam parecido; a alocação de urnas também se agrupa no mapa. O Cap. 7 não “apaga” indícios: ele exige que o efeito estimado sob controle espacial seja lido contra uma referência neutra (no mesmo prédio, ≈ +0,01 pp). Detalhe na **seção 6**.
 ---
 
 ## 2. Dados e unidade de análise
@@ -177,26 +175,99 @@ Leitura alinhada a Forsberg e à crítica metodológica: o padrão favorece a hi
 
 ---
 
-## 6. Análise geográfica (em curso)
+## 6. Forsberg Caps. 6 e 7 — indícios com significância estatística
 
-### 6.1 Alcance além do prédio
+Alinhamento a Ole J. Forsberg, *Understanding Elections through Statistics*, caps. 6–7. Premissa desta seção: **indício ≠ prova**. Associação estatística compatível com unfairness ou com efeito residual de urna **é indício**; prova exigiria destino discriminante e, no limite, registro independente.
 
-![Proximidade](figuras/05_proximidade_fronteira.png)
+### 6.1 Cap. 6 — Invalidação diferencial: há indício
 
-*Figura 10 — Nos municípios só com urnas antigas, fração dos votos que têm um local UE2020 a ≤ r km em outro município. A 5 km: ~4%; a 20 km: ~23%. O restante exige modelo espacial ou permanece fora do análogo do “mesmo prédio”.*
+Pergunta do capítulo: a taxa de brancos e nulos é independente do apoio ao candidato? Se não, há *unfairness* possível (fraude na contagem, ou demografia, alfabetização, cédula…). No protocolo deste projeto, esse achado **é indício** do que pode ser fraude — suficiente para o *Q.E.D.* intermediário —, embora **não** seja prova isolada.
 
-### 6.2 Invalidação diferencial com espaço (F3)
+Resultados nacionais (F3, ~92 mil locais, 2º turno):
+
+| Estatística | Valor | Significado |
+|-------------|------:|-------------|
+| Quasi-binomial `pInv ~ pSup` (pSup = fração Lula) | coef. logit ≈ **+0,35**; z ≫ 2 | Associação significativa: onde há mais Lula, há mais BN (em média nacional) |
+| Mesmo modelo + fração urna antiga + interação | interação ≈ **−0,13** (z ≪ −2) | O indício **não** é idêntico onde há mais urnas antigas |
+| **Moran I nos resíduos** do modelo `pInv ~ pSup (+ old)` | **I ≈ 0,57** (z ≈ 372) | Os erros do Cap. 6 **não são aleatórios no mapa**: locais com invalidação acima (ou abaixo) do previsto tendem a ter vizinhos no mesmo sentido. I perto de 0 seria ausência de agrupamento; I ≈ 0,57 é autocorrelação positiva forte |
+
+![Invalidação](figuras/09_mapa_invalidacao.png)
+
+*Figura 10 — Taxa de brancos+nulos por município. Ponto de partida do Cap. 6.*
+
+#### Onde o indício do Cap. 6 é maior
+
+O coeficiente nacional esconde heterogeneidade. Reestimando por UF (`pInv ~ pSup + old`):
+
+![DI por UF](figuras/13_di_por_uf.png)
+
+*Figura 11 — Coeficiente do apoio a Lula sobre a invalidação, por UF. Azul: sentido “mais Lula → mais BN” (mesmo sinal do nacional). Vermelho: sentido oposto. Rotulados os z mais extremos.*
+
+UFs com indício **mais forte no sentido nacional** (coef. positivo e |z| elevado): **SP, RS, MS, PB, ES, MG, PE, MT, RO, DF, BA, AC** (entre outras). UFs em que o coeficiente **inverte** (mais Lula → menos BN, também com |z| alto): **CE, PA, PR, PI, AP, RN, MA, SE**. O indício existe nos dois casos — é a *dependência* entre invalidação e apoio que viola a independência do Cap. 6; o sinal diz *para que lado* a unfairness aparente aponta naquela UF.
+
+Clusters LISA (p < 0,05) do tipo **HH** nos resíduos (invalidação **acima** do previsto pelo modelo nacional), por região:
+
+| Região | Locais HH significativos | Observação |
+|--------|-------------------------:|------------|
+| Sudeste | 7.619 | Concentração grande em **SP** |
+| Nordeste | 7.430 | **BA, PE, PB, AL** entre os maiores |
+| Sul | 617 | Principalmente **RS** |
+| Norte | 278 | Inclui **AM** |
+| Centro-Oeste | 81 | Inclui **MS** |
+
+No total, cerca de **17%** dos locais caem em cluster HH significativo. CSV: `geografia/.../resultados/di_espacial_por_uf.csv` e `di_espacial_lisa_HH_por_regiao.csv`.
+
+### 6.2 Cap. 7 — Geografia: o efeito urna residual também é indício
+
+O Cap. 7 confirma que voto, invalidação e alocação de urnas são espacialmente autocorrelacionados (Moran da proporção de Lula ≈ **0,85**; da fração de urnas antigas ≈ **0,87**). Por isso um MQO sem estrutura espacial infla o “efeito urna”.
+
+| Especificação | Coef. fração urna antiga → % Lula | Leitura |
+|---------------|----------------------------------:|---------|
+| MQO (locais, k=8) | **+3,3 pp** | Indício bruto, muito confundido com lugar |
+| Defasagem espacial (GM_Lag) | **+2,1 pp** | Cai, permanece longe de zero |
+| Erro espacial (GM_Error_Het) | **+1,4 pp** | Cai de novo; **ainda ≠ neutro** |
+| Mesmo local + composição legislativa (referência) | **+0,01 pp** (t = 0,13) | Referência neutra *onde há comparação interna* |
+
+Sim: **+1,4 pp não é neutro**. Neutro, na escala que este projeto adotou no prédio, seria da ordem de **+0,01 pp**. O fato de os modelos espaciais globais **não** levarem o coeficiente a esse piso deixa de pé um **indício** — sinal estatístico ainda associado à fração de urnas antigas após controle espacial de coeficiente constante.
+
+O que o Cap. 7 *ainda não* entrega, e por isso o indício **não** sobe sozinho a prova nem a indício discriminante “fraude”:
+
+1. Calibração **F4a**: o mesmo modelo espacial, aplicado só onde a referência do prédio é ≈ 0, precisa reproduzir ≈ 0; se não reproduzir, o +1,4 pp no resto do mapa pode ser viés do modelo, não fraude.  
+2. Efeitos que variam no mapa (SEM, GWR, SLEM).  
+3. Domínio sem comparação interna (~44% dos votos) ainda em aberto.
+
+![Moran](figuras/04_moran.png)
+
+*Figura 12 — Moran global: por que o Cap. 7 é obrigatório.*
 
 ![DI espacial](figuras/11_di_espacial_coefs.png)
 
-*Figura 11 — Coeficiente do apoio a Lula sobre a taxa de brancos+nulos, com controle da fração de urnas antigas. Há associação estatística; os resíduos do modelo não espacial ainda têm Moran I ≈ 0,57. O efeito em escala de proporção é pequeno; o SEM linear indica variação forte do efeito com latitude/longitude. Interpretação causal (fraude vs demografia/alfabetização) exige a calibração F4a.*
+*Figura 13 — Cap. 6 sob especificações espaciais: a associação invalidação × apoio permanece significativa (z > 5).*
 
-### 6.3 Próximas etapas geográficas
+### 6.3 Síntese Caps. 6 e 7
 
-1. **F4a** — Aplicar o modelo espacial onde a referência intramunicipal é ≈ 0; rejeitar especificações que não reproduzem essa referência.  
-2. **F4b** — GWR e SLEM (Forsberg).  
+| Achado | É indício? | É prova? |
+|--------|:----------:|:--------:|
+| Associação nacional BN × apoio a Lula (Cap. 6) | **Sim** | Não |
+| Heterogeneidade por UF / clusters HH de resíduos | **Sim** (localiza o indício) | Não |
+| Moran I ≈ 0,57 nos resíduos do Cap. 6 | **Sim** (o padrão é espacial) | Não — é diagnóstico de dependência |
+| Coef. urna +1,4 pp após erro espacial (Cap. 7) | **Sim** (não é o neutro +0,01) | Não — falta F4a / efeitos variáveis |
+| Azul no mapa de Lula | **Não** (é voto) | Não |
+| Contraste urna no mesmo prédio ≈ 0 | Atribui o indício *agregado de marca* sobretudo à alocação | — |
+
+### 6.4 Alcance além do prédio
+
+![Proximidade](figuras/05_proximidade_fronteira.png)
+
+*Figura 14 — Fração do domínio só-urnas-antigas com UE2020 a ≤ r km noutro município.*
+
+### 6.5 Próximas etapas
+
+1. **F4a** — Calibrar o modelo espacial na referência do prédio.  
+2. **F4b** — GWR e SLEM.  
 3. **F4c** — Pares cross-border.  
-4. **F4d** — Poder com fraudes sintéticas no domínio sem comparação interna.
+4. **F4d** — Poder com fraudes sintéticas no domínio sem comparação interna.  
+5. Controles demográficos sobre o indício do Cap. 6 nas UFs de maior |z|.
 
 ---
 
@@ -210,8 +281,10 @@ Leitura alinhada a Forsberg e à crítica metodológica: o padrão favorece a hi
 | I4 Erro da calibragem por UF | 20–30%+ no N/NE | **Alocação** | Placebo T1 UE2020 capital→interior |
 | I5 27 urnas AM sem Bolsonaro | Real | **Alocação / alinhamento** | Municípios só antigas; coerência com outros cargos |
 | I6 PL alto / Bolsonaro baixo | Real | **Alinhamento local** | PL Senado fraco nas mesmas seções |
-| I7 Mais BN nas antigas (zona) | +0,28 pp | **Alocação** | No local: −0,07 pp |
+| I7 Mais BN nas antigas (zona) | +0,28 pp | **Alocação** (no local ≈ 0) | No local: −0,07 pp |
 | I8 R intramunicipal RR | R = 1,77 | **A examinar** | Falta teste por local |
+| **I9** Cap. 6 — BN × apoio a Lula | coef. ≈ +0,35; z ≫ 2; LISA HH ~17% | **Indício** (unfairness possível) | Não é prova; forte em SP, RS, MS, PB, PE… |
+| **I10** Cap. 7 — coef. urna após erro espacial | **+1,4 pp** vs neutro **+0,01** | **Indício** (não neutro) | Não discriminante até F4a |
 
 ---
 
@@ -219,8 +292,9 @@ Leitura alinhada a Forsberg e à crítica metodológica: o padrão favorece a hi
 
 **“Há indício de fraude ou não?”**
 
-Com o que esta auditoria mede: **não há prova de fraude**, e **não há indício discriminante** a favor de manipulação por modelo de urna. Há indícios de diferença entre grupos de urnas; os examinados (exceto I8) foram **atribuídos à alocação**. Isso não encerra todo mecanismo imaginável (M5 e o domínio sem comparação interna permanecem abertos), mas responde, no sentido do debate sobre “urnas novas × antigas”, que os dados **não apontam** trapaça por marca de urna.
+**Há indícios** — no sentido deste relatório: distorções estatisticamente significativas compatíveis com unfairness (Cap. 6) e com efeito residual associado à fração de urnas antigas após controle espacial global (Cap. 7, +1,4 pp ≠ +0,01). Isso é o que queríamos poder afirmar quando o teste rejeita a independência ou a neutralidade.
 
+**Não há prova** de fraude por modelo de urna. O contraste no mesmo prédio atribui o indício *agregado de marca* sobretudo à alocação; os indícios I9 e I10 permanecem com destino a aprofundar (demografia, F4a–F4d), sem serem apagados por essa atribuição.
 ---
 
 ## 9. Artefatos e reprodução
