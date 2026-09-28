@@ -11,11 +11,13 @@
 
 Este relatório separa com rigor **indício** e **prova**. Indício é distorção real e estatisticamente significativa relacionada ao fato; basta, *conforme queríamos demonstrar*, para afirmar que há o que investigar. Prova exige ainda destino discriminante (relação causal com a urna que sobrevive a controles) e, no limite, registro independente do software.
 
-Há diferença agregada entre a proporção Lula/Bolsonaro nas urnas anteriores a 2020 e nas UE2020 — **indício real**. Nos **1.353 locais** com os dois modelos lado a lado, descontada a composição legislativa, o contraste cai a **+0,01 pp** (t = 0,13). Esse nível de comparação atribui o indício agregado, na maior parte, à **alocação** dos equipamentos — sem invalidar outros indícios obtidos por vias distintas (Forsberg).
+Há diferença agregada entre a proporção Lula/Bolsonaro nas urnas anteriores a 2020 e nas UE2020 — indício real. O CMH e a regressão com efeito fixo de município ou de zona, nos estratos que têm os dois modelos, reproduzem o sinal (da ordem de +1,2 pp a favor de Lula nas antigas; t ≈ 4,5–5,4). Esse é o nível em que este relatório centra o CMH: máxima cobertura de votos entre os contrastes estratificados (~25% dos votos no município misto; ~22% na zona mista).
+
+O contraste no mesmo *local de votação* (o endereço/edifício onde várias seções compartilham a fila — jargão anterior: “prédio”) cobre só ~0,3% das seções e responde a outra pergunta; não anula o indício obtido em município ou zona.
 
 Pelos critérios do Cap. 6 de Forsberg, há **associação estatística** entre taxa de brancos+nulos e apoio a Lula (coef. logit ≈ +0,35; z ≫ 2). Isso é *unfairness* possível e, na terminologia deste projeto, **é indício** do que pode ser fraude — não prova isolada. O sinal não é uniforme no país: é mais forte (z elevado, coeficiente positivo) em UFs como SP, RS, MS, PB, ES, PE; em outras (CE, PA, PR, PI…) o coeficiente inverte de sinal. Os resíduos desse modelo ainda têm Moran **I ≈ 0,57**: os desvios se agrupam no espaço (clusters HH significativos sobretudo em SP, BA, PE, PB).
 
-Pelo Cap. 7, modelos espaciais baixam o coeficiente da fração de urnas antigas sobre a proporção de Lula de cerca de **+3,3 pp** (MQO) para **+1,4 pp** (erro espacial). Neutro, na escala do mesmo prédio, seria ≈ **+0,01 pp**. **+1,4 pp não é neutro**: permanece **indício** associado à urna/lugar após controle espacial global. Ainda não é prova nem indício discriminante a favor da fraude (falta a calibração F4a no domínio onde a referência é conhecida); mas tampouco se pode dizer que o Cap. 7 “zerou” o efeito.
+Pelo Cap. 7, modelos espaciais baixam o coeficiente da fração de urnas antigas sobre a proporção de Lula de cerca de +3,3 pp (MQO) para +1,4 pp (erro espacial). +1,4 pp não é zero: permanece indício associado à urna/lugar após controle espacial global. Ainda não é prova. A calibração F4a (repetir o modelo só onde o contraste intramunicipal ou no local é conhecido) está pendente.
 
 **Conclusão para o leitor:** **há indícios** com significância estatística (Caps. 6 e 7, além do contraste agregado). **Não há prova** de fraude por modelo de urna. O azul do mapa de Lula continua sendo geografia do voto, não o teste de Forsberg.
 ---
@@ -42,7 +44,7 @@ Cada indício recebe um de três destinos: **atribuído à alocação**, **atrib
 
 ### 1.2 Confundimento espacial (P0)
 
-O modelo de urna não foi sorteado. As UE2020 concentram-se em capitais e municípios maiores; as antigas, no interior. Dentro das zonas, a alocação ainda corre por prédio de votação. Qualquer contraste bruto entre marcas mistura **lugar** e **equipamento**.
+O modelo de urna não foi sorteado. As UE2020 concentram-se em capitais e municípios maiores; as antigas, no interior. Dentro das zonas, a alocação ainda corre por local de votação (escola, ginásio, associação — o edifício onde várias seções funcionam no mesmo endereço). Qualquer contraste bruto entre marcas mistura lugar e equipamento.
 
 ![Mapas Lula e urnas](figuras/08_mapa_lula_e_urnas.png)
 
@@ -64,7 +66,7 @@ Sob a hipótese de eleição livre e justa, a taxa de brancos e nulos deve ser *
 
 ### 1.5 Autocorrelação espacial (Forsberg, cap. 7)
 
-Vizinhos votam parecido; a alocação de urnas também se agrupa no mapa. O Cap. 7 não “apaga” indícios: ele exige que o efeito estimado sob controle espacial seja lido contra uma referência neutra (no mesmo prédio, ≈ +0,01 pp). Detalhe na **seção 6**.
+Vizinhos votam parecido; a alocação de urnas também se agrupa no mapa. O Cap. 7 não apaga indícios: o coeficiente sob controle espacial (+1,4 pp) permanece acima do contraste típico no mesmo local de votação (ordem de zero), mas este último cobre fração ínfima das seções. Detalhe na seção 6.
 ---
 
 ## 2. Dados e unidade de análise
@@ -76,24 +78,24 @@ Vizinhos votam parecido; a alocação de urnas também se agrupa no mapa. O Cap.
 | Hidalgo `geocode_br_polling_stations` v0.16 | Coordenadas de ~92,3 mil locais; 99,1% dentro do município IBGE |
 | geobr municípios 2022 | Polígonos; validação ponto-no-polígono |
 
-Unidades usadas neste relatório: **seção**, **local de votação** (prédio), **município**, **UF**.
+Unidades usadas neste relatório: seção; local de votação (endereço/edifício com uma ou mais seções; às vezes chamado “prédio” nos textos auxiliares); zona eleitoral; município; UF.
 
 ---
 
-## 3. Hierarquia de contrastes: o efeito encolhe
+## 3. Contrastes por nível: cobertura e pergunta distinta
 
 ![Hierarquia](figuras/03b_hierarquia_efeitos.png)
 
-*Figura 5 — Efeito associado à urna antiga (pontos percentuais a favor de Lula) em sucessivos níveis de controle.*
+*Figura 5 — Efeito associado à urna antiga (pp a favor de Lula) em níveis sucessivos. Descer de nível muda a pergunta e a cobertura; não é “refutação” automática do nível acima.*
 
-| Nível | Efeito (pp) | Leitura |
-|-------|------------:|---------|
-| Dentro da zona (Brasil, sem covariáveis) | +1,27 (t = 5,4) | Indício I2 |
-| Mesmo local + composição legislativa | **+0,01 (t = 0,13)** | Comparação no prédio |
-| MQO espacial (locais, k=8) | +3,29 | Ainda mistura geografia |
-| Erro espacial (λ ≈ 0,85) | +1,39 | Reduz, não chega a 0,01 |
+| Nível | Efeito (pp) | Cobertura (ordem de grandeza) | Pergunta |
+|-------|------------:|-------------------------------|----------|
+| Município misto | +1,17 (t = 4,5) | ~25% dos votos | Há diferença intramunicipal? |
+| Zona mista | +1,35 (t = 5,4) | ~22% dos votos / seções | Há diferença intrazonal? |
+| Mesmo local de votação | ~0 a +0,3 (t < 1) | ~0,3% das seções | O sinal sobrevive no mesmo edifício? |
+| MQO / erro espacial (Forsberg 7) | +3,3 → +1,4 | quase todo o mapa de locais | Efeito da fração de antigas após espaço |
 
-A diferença entre +1,39 (erro espacial global) e +0,01 (mesmo local) mede o viés que resta quando se força um coeficiente único no país — limitação que Forsberg aponta e que GWR/SLEM tratam.
+Município e zona são o desenho do CMH neste relatório. O local de votação é um controle adicional, com pouquíssimas seções; não substitui nem cancela o contraste municipal/zonal.
 
 ---
 
@@ -105,20 +107,81 @@ A diferença entre +1,39 (erro espacial global) e +0,01 (mesmo local) mede o vi�
 
 ### 4.1 Relatório CMH / modelo de urna
 
+**O que queremos.** Nos estratos que têm os dois modelos, a chance de voto em Lula vs Bolsonaro difere entre urna antiga e UE2020? P1–P2 são o indício forte dessa linha. Não é inventário de todos os tipos de fraude.
+
+**Nível adotado.** Município (e, em seguida, zona). Critério: incluir o maior número de votos possível no contraste estratificado. Recortes úteis no mesmo nível: capital × interior e porte (≥ / < 100 mil aptos).
+
+**O que o CMH não mostra.** Causalidade da marca se a alocação dentro do estrato ainda corre com o perfil; homogeneidade nacional (P2a é só descritiva); o destino final do indício.
+
+#### Local de votação (“prédio”)
+
+Local de votação = endereço/edifício cadastrado pelo TSE onde uma ou mais seções abrem no mesmo dia (escola, ginásio, etc.). Não é a seção, nem a zona. O teste “no mesmo local” compara seções antiga e UE2020 *dentro desse edifício*. Com o modelo ligado à base, há 139 locais mistos e 1.436 seções (~0,3% das seções). Esse recorte não tem porte para “refutar” o CMH municipal ou zonal.
+
+#### Cobertura (2º turno, L+B = 118.254.184 votos)
+
+| Nível | Mistos | No teste | Cobertura |
+|-------|-------:|---------:|----------:|
+| Estado / região | 27 / 5 | 118,3 mi votos | 100% (sem controle local) |
+| Município | 313 | 29,8 mi votos | **25,2%** |
+| Município × zona | 464 | 26,6 mi votos | **22,5%** |
+| Local de votação | 139 | 1.436 seções | **0,3%** das seções |
+
+#### Mapa do contraste intramunicipal
+
+![CMH município](figuras/14_cmh_municipio.png)
+
+*Figura — Esquerda: Δpp Lula (urna antiga − UE2020) nos municípios mistos. Direita: só antigas / misto / só UE2020.*
+
+![CMH UF](figuras/18_cmh_uf.png)
+
+*Figura — CMH por UF, mesma convenção do mapa de invalidação: vermelho, antigas com mais Lula; azul, antigas com mais Bolsonaro; branco, diferença nula. Escala linear de −20 a +20 pp. Este nível cobre todos os votos e não controla o município: mistura lugar e equipamento.*
+
+![CMH município divergente](figuras/18_cmh_municipio.png)
+
+*Figura — O mesmo contraste só nos 313 municípios com os dois modelos. Cinza: um só modelo, sem teste. Escala linear de −10 a +10 pp (15 municípios saturam). Zona e local de votação não têm polígono para este tipo de mapa.*
+
+![CMH São Paulo](figuras/18_cmh_sp.png)
+
+*Figura — O mesmo CMH municipal, só São Paulo (279 municípios mistos de 645). Mesma escala, ±10 pp. Cinza: um só modelo.*
+
+![CMH SP pontos](figuras/18_cmh_sp_pontos.png)
+
+*Figura — Os 279 municípios mistos de SP, um ponto cada, ordenados do viés Bolsonaro (negativo) ao viés Lula (positivo). 84 ficam abaixo de zero; 195, acima. Cada município pesa um, qualquer que seja o tamanho.*
+
+![CMH SP aptos](figuras/18_cmh_sp_aptos.png)
+
+*Figura — A mesma ordenação, com a largura de cada município igual aos aptos. A cauda vermelha acima de +10 pp é fina. O trecho longo perto de +1 pp é São Paulo (9,3 milhões de aptos).*
+
+![CMH SP peso](figuras/18_cmh_sp_peso.png)
+
+*Figura — À esquerda, o contraste nos 12 municípios com mais aptos. À direita, o resumo ponderado.*
+
+A ordenação em que cada município é um ponto dá a impressão de um viés predominantemente vermelho: 195 municípios de um lado e 84 do outro. Essa conta trata Eldorado e a capital como unidades iguais. Houve por bem repetir a ordenação com largura igual aos aptos do cadastro eleitoral. Nos 279 municípios mistos de São Paulo são 31,9 milhões de aptos.
+
+A média do contraste passa de +1,70 pp, sem peso, para +1,32 pp, ponderada pelos aptos. Setenta e oito por cento dos aptos estão em municípios de viés Lula e 22% em municípios de viés Bolsonaro. A cauda acima de +10 pp é de municípios pequenos. O trecho longo da curva, perto de +1 pp, é São Paulo, com 9,3 milhões de aptos. Entre os doze maiores, Campinas fica em +6 pp; São Bernardo do Campo, Sorocaba e São José dos Campos ficam do lado azul.
+
+Se, em cada município misto, a taxa de Lula nas urnas antigas fosse igualada à taxa das UE2020, o saldo seria cerca de 180 mil votos de Lula: +234 mil nos municípios vermelhos e −54 mil nos azuis. Esta conta mede o tamanho do indício intramunicipal em São Paulo. Não estabelece, por si, que esses votos tenham sido transferidos.
+
+![CMH recortes](figuras/15_cmh_municipio_recortes.png)
+
+*Figura — Mesmo contraste, agregado por capital×interior e por porte (≥ / < 100 mil aptos), ponderado por votos.*
+
+Nos mistos, o sinal intramunicipal ponderado é positivo no interior (+1,34 pp) e nos municípios menores (+2,04 pp); nas capitais mistos o sinal inverte (−0,76 pp). Isso localiza o indício; não o dissolve.
+
 | Nº | Proposição | Indicador | Fundamento |
 |----|------------|----------:|------------|
-| P0 | Modelo de urna entrelaçado com localização e perfil | **1,00** | Premissa confirmada em todos os níveis |
-| P1 | Há correlação agregada modelo × voto | **1,00** | R bruto ≈ 1,15–1,17 |
-| P2 | Há diferença intrazonal nacional | **1,00** | +1,27 pp, t = 5,4 |
-| P2a | Essa diferença é homogênea no país | **0,03** | Concentrada em SP |
-| P3 | p-valores CMH por voto são válidos como reportados | **0,00** | Dispersão; a rejeição de H0 sobrevive com a seção |
-| P4 | Dentro das zonas, alocação independe do perfil | **0,00** | Negação de P0 |
-| P4′ | No mesmo local, seções antigas e UE2020 são comparáveis | **0,85** | Controles negativos equilibrados |
-| P5 | O modelo de urna **causou** a diferença | **0,03** | Nulo no prédio, com poder para 1% |
-| P6a/b | Fraude detectable (≥ 1%) nas antigas | **0,02–0,03** | Nulo no prédio (Brasil e SP) |
-| P6c | Intrazonal aponta efeito das antigas no Nordeste | **0,02** | Sinal contrário / nulo |
-| P7 | Evidência equivalente a tabagismo–câncer | **0,00** | Analogia inválida |
-| P10 | A diferença inverte o resultado | **0,00** | Magnitude intramunicipal ≪ margem |
+| P0 | Modelo entrelaçado com localização e perfil | 1,00 | Premissa confirmada |
+| P1 | Correlação agregada modelo × voto | 1,00 | R ≈ 1,15–1,18 |
+| P2 | Diferença em estratos mistos (mun./zona) | 1,00 | +1,2 a +1,4 pp; t ≈ 4,5–5,4 |
+| P2a | *(descritiva)* Diferença homogênea no país | 0,03 | Concentrada; não é requisito |
+| P3 | p-valores CMH por voto válidos como reportados | 0,00 | Dispersão; H0 rejeitada com a seção |
+| P4 | Dentro das zonas, alocação independe do perfil | 0,00 | Negação de P0 |
+| P4′ | No mesmo local, seções comparáveis | 0,85 | Controles no local (amostra estreita) |
+| P5 | O modelo causou a diferença | 0,03 | Exige mais que o CMH municipal |
+| P6a/b | Fraude ≥ 1% no teste de mesmo local | 0,02–0,03 | Amostra ~0,3% das seções |
+| P6c | Intrazonal aponta efeito no Nordeste | 0,02 | Sinal contrário / nulo |
+| P7 | Equivalente a tabagismo–câncer | 0,00 | Analogia inválida |
+| P10 | A diferença inverte o resultado | 0,00 | Magnitude vs margem |
 
 ### 4.2 Scores VotoReal
 
@@ -156,6 +219,10 @@ A diferença entre +1,39 (erro espacial global) e +0,01 (mesmo local) mede o vi�
 ![Contraste UF](figuras/01_contraste_uf_1t.png)
 
 *Figura 7 — Δ de erro relativo (Diebold − Positivo) após calibrar nas UE2020. PB, AL, PE, AM, CE… ultrapassam 20–30% em Bolsonaro. SP, MG, DF ficam perto de zero.*
+
+![Scores UF](figuras/19_scores_uf.png)
+
+*Figura 7b — O mesmo desajuste no mapa, no erro relativo de Lula (2º turno, deputado federal do 1º como perfil). Vermelho: Lula acima do previsto nas antigas. Azul: abaixo. Branco: desajuste nulo. Escala linear de −30% a +30%. A calibragem é por UF; não há coeficiente municipal.*
 
 Atenção: nos estados de maior Δ, capital ≈ UE2020 e interior ≈ antigas. O Δ **mistura** capital/interior com eventual efeito de marca. Por isso os controles abaixo.
 
@@ -201,7 +268,15 @@ O coeficiente nacional esconde heterogeneidade. Reestimando por UF (`pInv ~ pSup
 
 ![DI por UF](figuras/13_di_por_uf.png)
 
-*Figura 11 — Coeficiente do apoio a Lula sobre a invalidação, por UF. Azul: sentido “mais Lula → mais BN” (mesmo sinal do nacional). Vermelho: sentido oposto. Rotulados os z mais extremos.*
+*Figura 11 — Coeficiente do apoio sobre a invalidação, por UF. Vermelho: mais Lula, mais brancos e nulos. Azul: mais Bolsonaro, mais brancos e nulos. Rotulados os z mais extremos.*
+
+![Mapa DI por UF](figuras/16_di_mapa_uf.png)
+
+*Figura 11b — O mesmo coeficiente no mapa. A cor é da UF. Vermelho (MS, AC, RO, RS…): viés ligado ao apoio a Lula. Azul (AP, CE, PA, PR…): viés ligado ao apoio a Bolsonaro. Branco: coeficiente perto de zero.*
+
+![DI por município](figuras/17_di_mapa_municipio.png)
+
+*Figura 11c — O mesmo viés dentro de cada município, em pontos percentuais de brancos+nulos por 100 pp de apoio a Lula. Vermelho: viés Lula. Azul: viés Bolsonaro. Branco: neutro. Escala linear de −25 a +25 pp; fora disso a cor satura. Logaritmo não entra. O teste t não foi pintado.*
 
 UFs com indício **mais forte no sentido nacional** (coef. positivo e |z| elevado): **SP, RS, MS, PB, ES, MG, PE, MT, RO, DF, BA, AC** (entre outras). UFs em que o coeficiente **inverte** (mais Lula → menos BN, também com |z| alto): **CE, PA, PR, PI, AP, RN, MA, SE**. O indício existe nos dois casos — é a *dependência* entre invalidação e apoio que viola a independência do Cap. 6; o sinal diz *para que lado* a unfairness aparente aponta naquela UF.
 
@@ -228,11 +303,11 @@ O Cap. 7 confirma que voto, invalidação e alocação de urnas são espacialmen
 | Erro espacial (GM_Error_Het) | **+1,4 pp** | Cai de novo; **ainda ≠ neutro** |
 | Mesmo local + composição legislativa (referência) | **+0,01 pp** (t = 0,13) | Referência neutra *onde há comparação interna* |
 
-Sim: **+1,4 pp não é neutro**. Neutro, na escala que este projeto adotou no prédio, seria da ordem de **+0,01 pp**. O fato de os modelos espaciais globais **não** levarem o coeficiente a esse piso deixa de pé um **indício** — sinal estatístico ainda associado à fração de urnas antigas após controle espacial de coeficiente constante.
+Sim: +1,4 pp não é zero. Os modelos espaciais globais deixam de pé um indício — sinal ainda associado à fração de urnas antigas após controle espacial de coeficiente constante. Isso não depende de tratar o contraste no local de votação (amostra ~0,3%) como “piso” que anula o CMH municipal.
 
 O que o Cap. 7 *ainda não* entrega, e por isso o indício **não** sobe sozinho a prova nem a indício discriminante “fraude”:
 
-1. Calibração **F4a**: o mesmo modelo espacial, aplicado só onde a referência do prédio é ≈ 0, precisa reproduzir ≈ 0; se não reproduzir, o +1,4 pp no resto do mapa pode ser viés do modelo, não fraude.  
+1. Calibração F4a: o mesmo modelo espacial, aplicado só onde o contraste intramunicipal (ou no local) é próximo de zero, precisa reproduzir ≈ 0; se não reproduzir, o +1,4 pp no resto do mapa pode ser viés do modelo.  
 2. Efeitos que variam no mapa (SEM, GWR, SLEM).  
 3. Domínio sem comparação interna (~44% dos votos) ainda em aberto.
 
@@ -253,9 +328,9 @@ O que o Cap. 7 *ainda não* entrega, e por isso o indício **não** sobe sozinho
 | Moran I ≈ 0,57 nos resíduos do Cap. 6 | **Sim** (o padrão é espacial) | Não — é diagnóstico de dependência |
 | Coef. urna +1,4 pp após erro espacial (Cap. 7) | **Sim** (não é o neutro +0,01) | Não — falta F4a / efeitos variáveis |
 | Azul no mapa de Lula | **Não** (é voto) | Não |
-| Contraste urna no mesmo prédio ≈ 0 | Atribui o indício *agregado de marca* sobretudo à alocação | — |
+| Contraste no mesmo local ≈ 0 (amostra estreita) | Controle adicional; não cancela I1–I2 em mun./zona | — |
 
-### 6.4 Alcance além do prédio
+### 6.4 Alcance além do local de votação
 
 ![Proximidade](figuras/05_proximidade_fronteira.png)
 
@@ -263,7 +338,7 @@ O que o Cap. 7 *ainda não* entrega, e por isso o indício **não** sobe sozinho
 
 ### 6.5 Próximas etapas
 
-1. **F4a** — Calibrar o modelo espacial na referência do prédio.  
+1. F4a — Calibrar o modelo espacial onde o contraste mun./local é conhecido.  
 2. **F4b** — GWR e SLEM.  
 3. **F4c** — Pares cross-border.  
 4. **F4d** — Poder com fraudes sintéticas no domínio sem comparação interna.  
@@ -275,9 +350,9 @@ O que o Cap. 7 *ainda não* entrega, e por isso o indício **não** sobe sozinho
 
 | Indício | Distorção | Destino | Fundamento resumido |
 |---------|-----------|---------|---------------------|
-| I1 Agregado entre modelos | R ≈ 1,17 por estado | **Alocação** | R ≈ 1,05 no município; UE2020 nas capitais |
-| I2 Dentro da zona | +1,27 pp | **Alocação** | Concentrado em SP; nulo no local |
-| I3 Resíduo paulista entre prédios | +0,26 pp | **Alocação** | Nulo dentro do prédio |
+| I1 Agregado entre modelos | R ≈ 1,18 por estado | **Indício** (confunde lugar) | R intramunicipal ≈ 1,05 nos mistos |
+| I2 Dentro do município / zona | +1,2 a +1,4 pp | **Indício** | Cobertura ~22–25% dos votos; o local (~0,3%) não cancela |
+| I3 Resíduo paulista entre locais | +0,26 pp | A examinar | Amostra de locais mistos é estreita |
 | I4 Erro da calibragem por UF | 20–30%+ no N/NE | **Alocação** | Placebo T1 UE2020 capital→interior |
 | I5 27 urnas AM sem Bolsonaro | Real | **Alocação / alinhamento** | Municípios só antigas; coerência com outros cargos |
 | I6 PL alto / Bolsonaro baixo | Real | **Alinhamento local** | PL Senado fraco nas mesmas seções |
@@ -294,7 +369,7 @@ O que o Cap. 7 *ainda não* entrega, e por isso o indício **não** sobe sozinho
 
 **Há indícios** — no sentido deste relatório: distorções estatisticamente significativas compatíveis com unfairness (Cap. 6) e com efeito residual associado à fração de urnas antigas após controle espacial global (Cap. 7, +1,4 pp ≠ +0,01). Isso é o que queríamos poder afirmar quando o teste rejeita a independência ou a neutralidade.
 
-**Não há prova** de fraude por modelo de urna. O contraste no mesmo prédio atribui o indício *agregado de marca* sobretudo à alocação; os indícios I9 e I10 permanecem com destino a aprofundar (demografia, F4a–F4d), sem serem apagados por essa atribuição.
+Não há prova de fraude por modelo de urna. O CMH em município e zona sustenta indício (I1–I2). O contraste no mesmo local de votação é amostra estreita demais para encerrar essa linha. I9 e I10 seguem com destino a aprofundar (demografia, F4a–F4d).
 ---
 
 ## 9. Artefatos e reprodução
@@ -307,6 +382,7 @@ O que o Cap. 7 *ainda não* entrega, e por isso o indício **não** sobe sozinho
 | `2026/envio_calibragem_scores_johnrobson_2026-09-26.zip` | Pacote enviado para atualização do site |
 | `2026/scripts/gerar_figuras_relatorio.py` | Figuras deste relatório |
 | `2026/geografia/.../scripts/06_espacial.py`, `07_di_espacial.py` | Pipeline espacial |
+| `resultados/cmh_por_municipio.csv`; figuras `14_` e `15_` | Contraste CMH por município (mapa e recortes) |
 
 Reprodução geográfica (resumo):
 
@@ -321,7 +397,7 @@ python3 07_di_espacial.py
 
 ## 10. Limitações
 
-1. O teste de mesmo local não cobre municípios só com um modelo (~44% dos votos).  
+1. A maior parte dos votos está em municípios com um só modelo; o CMH municipal cobre ~25% dos votos (estratos mistos). O teste no mesmo local cobre ~0,3% das seções.  
 2. Coordenadas têm erro residual (mediana baixa; excluir `conf_dist_km` > 1 km em sensibilidade).  
 3. GWR não tem teste nativo; SLEM depende da forma funcional.  
 4. M5 é estruturalmente indeterminado com os registros públicos de 2022.  

@@ -8,14 +8,14 @@ Cada proposição recebe um indicador de 0 a 1 que mede a verdade do enunciado, 
 |---|---|---|---|
 | P0 | O modelo de urna está entrelaçado com a localização e o perfil das seções, inclusive dentro das zonas (confundimento) | 1,00 | Premissa do relatório, confirmada em todos os níveis examinados |
 | P1 | Há correlação agregada entre modelo e voto | 1,00 | R bruto 1,146; por estado 1,174 |
-| P2 | Há diferença intrazonal nacional | 1,00 | +1,27 ponto, t = 5,4 com a seção como unidade |
-| P2a | A diferença intrazonal é homogênea no país | 0,03 | Concentrada em SP; sem SP, R = 0,996. Localiza o fenômeno e não pesa contra P6b |
-| P3 | Os p-valores do CMH por voto são válidos | 0,00 | z implícito de 65 contra 5,4; dispersão de 4,35. A rejeição de H0 sobrevive |
+| P2 | Há diferença em estratos mistos (município / zona) | 1,00 | +1,2 a +1,4 pp; t ≈ 4,5–5,4. Nível do CMH neste trabalho: mun./zona (~22–25% dos votos). Local de votação (~0,3% das seções) não cancela P2 |
+| P2a | *(descritiva)* A diferença intrazonal é homogênea no país | 0,03 | Concentrada em SP; sem SP, R = 0,996. **Não é condição** para o indício P1–P2 nem para gravidade democrática: fraude só no maior colégio, se provada, bastaria |
+| P3 | Os p-valores CMH por voto são válidos | 0,00 | z implícito de 65 contra 5,4; dispersão de 4,35. A rejeição de H0 sobrevive |
 | P4 | Dentro das zonas, a alocação independe do perfil das seções | 0,00 | Negação de P0: aptos, numeração e blocos por prédio |
 | P4′ | Dentro do mesmo local, seções antigas e UE2020 são comparáveis | 0,85 | Controles negativos equilibrados no prédio; aptos com pequena diferença |
 | P5 | O modelo de urna causou a diferença | 0,03 | Nula dentro do prédio, com poder para 1% |
 | P6a | Há fraude com acionamento uniforme nas urnas antigas | 0,02 | Efeito nulo fora de SP e dentro do prédio |
-| P6b | Há fraude com acionamento seletivo, concentrado em SP, em escala detectável (≥ 1%) | 0,03 | Nula dentro do prédio em SP |
+| P6b | Há fraude com acionamento seletivo, concentrado em SP, em escala detectável (≥ 1%) no teste de mesmo local | 0,03 | Nula dentro do prédio em SP — refuta *esse* mecanismo nessa escala, não a gravidade hipotética de uma fraude heterogênea *se* viesse a ser provada por outra via |
 | P6c | A comparação intrazonal indica efeito das urnas antigas no Nordeste | 0,02 | R = 0,990 por município × zona; −0,23 ponto por seção |
 | P7 | A evidência equivale à do tabagismo–câncer | 0,00 | Estatísticas de teste com N incomparáveis; razão de chances 1,05 |
 | P8 | O R = 2,05 dos nove estados evidencia fraude | 0,02 | Seleção posterior; R intramunicipal de 1,03 |
