@@ -52,8 +52,8 @@ def main():
         if p.is_file():
             manifesto[str(p.relative_to(DADOS))] = {"bytes": p.stat().st_size, "sha256": sha256(p)}
     (DADOS / "manifesto.json").write_text(json.dumps(manifesto, indent=2, ensure_ascii=False))
-    faltando = [n for n in ("secoes_2022_t1.csv.gz", "secoes_2022_t2.csv.gz")
-                if not (DADOS / n).exists() and not (DADOS / n.replace(".csv.gz", "_csv.gz")).exists()]
+    faltando = [n for n in ("secoes_2022_t1.parquet", "secoes_2022_t2.parquet")
+                if not (DADOS / n).exists() and not (DADOS / n.replace(".parquet", ".csv.gz")).exists()]
     if faltando:
         print("Atenção: base larga do TSE ausente:", faltando)
     if not list(DADOS.glob("VOTOS_T1E2*.xlsx")) and not (DADOS / "modelo_urna_secao.csv.gz").exists():

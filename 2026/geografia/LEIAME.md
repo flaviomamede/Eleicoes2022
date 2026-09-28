@@ -8,8 +8,8 @@ Separado da calibragem Positivo×Diebold enviada ao John Robson.
 | Caminho | O quê |
 |---------|--------|
 | `Eleicoes2022_2026.zip` | Pacote original do Claude Opus 5.5 (fora do Cursor) |
-| `claude_opus55_externo/` | Descompactado — docs 01–07, scripts 00–06, resultados |
-| `../docs/Forsberg_*.pdf` / `Forsberg_notas_caps6_7_8.md` | Livro e notas Caps. 6–8 |
+| `pipeline_auditoria/` | Docs 01–07, scripts 00–07, resultados |
+| `../docs/Forsberg_notas_caps6_7_8.md` | Notas dos Caps. 6–8. O PDF da CRC não é versionado |
 
 ## Leitura rápida do pacote externo
 
@@ -21,7 +21,7 @@ Separado da calibragem Positivo×Diebold enviada ao John Robson.
 Ver `PROGRESSO.md` (dados ligados, `06` reexecutado, F3 em `07_di_espacial.py`).
 
 ```bash
-cd claude_opus55_externo/scripts
+cd pipeline_auditoria/scripts
 python3 00_baixar_dados.py   # já feito
 python3 06_espacial.py
 python3 07_di_espacial.py    # F3 Forsberg

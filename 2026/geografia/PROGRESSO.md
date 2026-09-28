@@ -2,7 +2,7 @@
 
 ## Feito neste ambiente (Cursor)
 
-1. **Dados ligados** em `claude_opus55_externo/dados/`:
+1. **Dados ligados** em `pipeline_auditoria/dados/`:
    - symlinks `secoes_2022_t{1,2}.csv.gz` → `2026/dados/base_secoes/`
    - `modelo_urna_secao.csv.gz` gerado de `urnas_pres_gov.parquet` (sem VOTOS_T1E2.xlsx)
    - Hidalgo + geobr baixados (`scripts/00_baixar_dados.py`)
@@ -14,7 +14,7 @@
 | MQO | +3,29 |
 | GM_Lag (ρ≈0,38) | +2,11 |
 | GM_Error_Het (λ≈0,85) | +1,39 |
-| Ref. intramunicipal (doc 07) | ≈ +0,01 |
+| Ref. no mesmo local (139 locais) | −0,10 pp (t = −0,5) |
 
 Moran: Lula 0,85 · invalidação 0,56 · resíduo legislativo 0,64 · urna antiga 0,87.
 
@@ -31,7 +31,7 @@ Há associação estatística entre invalidação e apoio a Lula (n muito grande
 
 ## Próximos
 
-- F4a: aplicar o mesmo aparato espacial às zonas/locais mistos (referência ≈ 0) antes de extrapolar.
+- F4a feita (`resultados/f4a_calibracao.csv`): erro espacial nos municípios mistos +0,44 pp (z = 5,2) e nas zonas mistas +0,46 pp (z = 5,4). Não reproduz a referência −0,10 pp (t = −0,5) do mesmo local. O +1,4 pp nacional não se transporta. GM_Lag nesse recorte não se identifica (grafo desconexo).
 - F4b: GWR / SLEM (`mgwr`).
 - F4c: pares cross-border 5/10/20 km.
 - Documentar F3 em `docs/08_di_espacial.md` quando estabilizar.

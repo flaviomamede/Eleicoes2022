@@ -1,8 +1,6 @@
 # Forsberg (2021) — notas Caps. 6–8
 
-**Livro:** Ole J. Forsberg, *Understanding Elections through Statistics* (CRC, 2021)  
-**PDF no projeto:** `docs/Forsberg_Understanding_Elections_through_Statistics.pdf`  
-**Extrato texto:** `docs/Forsberg_ch6_7_8_extract.txt` (págs. PDF ~140–212)
+**Livro:** Ole J. Forsberg, *Understanding Elections through Statistics* (CRC, 2021). O PDF e os extratos integrais não ficam neste repositório.
 
 Contexto do livro (Parte II): testar *unfairness* eleitoral com dados oficiais. Cap. 5 = só contagens (Benford). Cap. 6 = + votos nulos/invalidação. Cap. 7 = + geografia. Cap. 8 = aplicação Sri Lanka.
 

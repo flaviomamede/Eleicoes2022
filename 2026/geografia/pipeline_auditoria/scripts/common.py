@@ -37,13 +37,18 @@ MARGEM_2T = 60_345_999 - 58_206_354               # margem oficial do 2º turno
 
 
 def _arquivo_base(turno: int) -> Path:
-    for nome in (f"secoes_2022_t{turno}.csv.gz", f"secoes_2022_t{turno}_csv.gz"):
+    nomes = (
+        f"secoes_2022_t{turno}.parquet",
+        f"secoes_2022_t{turno}.csv.gz",
+        f"secoes_2022_t{turno}_csv.gz",
+    )
+    for nome in nomes:
         p = DADOS / nome
         if p.exists():
             return p
     raise FileNotFoundError(
         f"Base larga do {turno}º turno não encontrada em {DADOS}. "
-        "Gere-a com scripts/01a_gerar_base_secoes.py (ver README).")
+        "O repositório versiona o parquet em 2026/dados/base_secoes/.")
 
 
 def carregar_base(turno: int) -> pd.DataFrame:
@@ -52,12 +57,15 @@ def carregar_base(turno: int) -> pd.DataFrame:
     if cache.exists():
         return pd.read_pickle(cache)
     arq = _arquivo_base(turno)
-    cab = pd.read_csv(arq, sep=";", nrows=2)
-    tipos = {c: (str if c in META_STR else "Int64") for c in cab.columns}
-    d = pd.read_csv(arq, sep=";", dtype=tipos)
-    for c in d.columns:
-        if c not in META_STR:
-            d[c] = d[c].fillna(0).astype("int64")
+    if arq.suffix == ".parquet":
+        d = pd.read_parquet(arq)
+    else:
+        cab = pd.read_csv(arq, sep=";", nrows=2)
+        tipos = {c: (str if c in META_STR else "Int64") for c in cab.columns}
+        d = pd.read_csv(arq, sep=";", dtype=tipos)
+        for c in d.columns:
+            if c not in META_STR:
+                d[c] = d[c].fillna(0).astype("int64")
     d.to_pickle(cache)
     return d
 

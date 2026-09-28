@@ -83,8 +83,8 @@ Outros tipos → `*_OUTROS_TIPOS`: (nenhum).
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `secoes_2022_t1.csv.gz` / `_t2.csv.gz` | base larga |
-| `secoes_2022_t1.parquet` / `_t2.parquet` | idem |
+| `secoes_2022_t1.parquet` / `_t2.parquet` | base larga versionada |
+| `secoes_2022_t1.csv.gz` / `_t2.csv.gz` | mesma base, só local; não entra no Git |
 | `por_uf/*.parquet` | checkpoint por UF |
 | `bu2022.sqlite.zip` | tabelas t1/t2 |
 | `dicionario_partidos.csv` | partidos |

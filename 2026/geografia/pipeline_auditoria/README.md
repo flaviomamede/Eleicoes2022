@@ -35,7 +35,7 @@ Requisitos: Python 3.12 e cerca de 4 GB de memória.
 pip install -r requirements.txt
 ```
 
-Coloque em `dados/` a base larga por seção (`secoes_2022_t1.csv.gz`, `secoes_2022_t2.csv.gz`) e a planilha `VOTOS_T1E2.xlsx` com o modelo de urna por seção (ver `dados/LEIA-ME.md`). A base larga é gerada a partir dos arquivos de boletim de urna do TSE (`bweb_1t_*` e `bweb_2t_*`) pelo script `scripts/01a_gerar_base_secoes.py`, que deve ser copiado do projeto local (`2026/scripts/gerar_base_secoes.py`); ela também será publicada como arquivo de release deste repositório. Em seguida:
+Coloque em `dados/` a base larga por seção (`secoes_2022_t1.parquet`, `secoes_2022_t2.parquet`; o `.csv.gz` também é lido, mas não é versionado) e a planilha `VOTOS_T1E2.xlsx` com o modelo de urna por seção (ver `dados/LEIA-ME.md`). A base larga é gerada a partir dos boletins de urna do TSE (`bweb_1t_*` e `bweb_2t_*`) pelo script `2026/scripts/gerar_base_secoes.py`. Em seguida:
 
 ```bash
 cd scripts

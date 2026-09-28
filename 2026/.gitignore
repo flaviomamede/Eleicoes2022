@@ -16,8 +16,11 @@ geografia/**/dados/cache/
 geografia/Eleicoes2022_2026.zip
 geografia/**/Eleicoes2022_2026.zip
 
-# Checkpoints por UF (redundantes com secoes_2022_t*.csv.gz)
+# Checkpoints por UF e o csv.gz da mesma base já versionada em parquet
 dados/base_secoes/por_uf/
+dados/base_secoes/secoes_2022_t1.csv.gz
+dados/base_secoes/secoes_2022_t2.csv.gz
+envio_calibragem_scores_johnrobson_*.zip
 
 # Python
 **/__pycache__/

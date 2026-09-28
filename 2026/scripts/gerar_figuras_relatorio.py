@@ -15,8 +15,8 @@ FIG = ROOT / "relatorio" / "figuras"
 FIG.mkdir(parents=True, exist_ok=True)
 
 AN = ROOT / "analise"
-GEO_RES = ROOT / "geografia" / "claude_opus55_externo" / "resultados"
-GEO_DATA = ROOT / "geografia" / "claude_opus55_externo" / "dados"
+GEO_RES = ROOT / "geografia" / "pipeline_auditoria" / "resultados"
+GEO_DATA = ROOT / "geografia" / "pipeline_auditoria" / "dados"
 CACHE = GEO_DATA / "cache"
 
 plt.rcParams.update({

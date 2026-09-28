@@ -6,8 +6,8 @@ dados/*
 !dados/modelo_urna_secao.csv.gz
 !dados/geo/
 !dados/geo/**
-!dados/secoes_2022_t1.csv.gz
-!dados/secoes_2022_t2.csv.gz
+!dados/secoes_2022_t1.parquet
+!dados/secoes_2022_t2.parquet
 dados/cache/
 __pycache__/
 *.pyc
